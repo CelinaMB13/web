@@ -1,0 +1,205 @@
+/* Estilos globales */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    transition: transform 1s ease;
+}
+
+.bg-custom-dark {
+    background-color: #81817f; 
+}
+
+.navbar-nav .nav-link,
+.dropdown-menu .dropdown-item,
+.card-title,
+.form-label,
+.form-control,
+textarea,
+#nombre,
+#email,
+#telefono,
+#comentario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.navbar-nav .nav-link:hover,
+.dropdown-menu .dropdown-item:hover {
+    color: rgb(215, 213, 213)!important;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+.navbar-toggler-icon {
+    background-color: #81817f; 
+}
+
+.text-muted {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.text-center .fs-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #81817f;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.btn-primary {
+    background-color: #81817f;
+    border-color: #81817f;
+}
+
+.btn-primary:hover {
+    background-color: #6a6a68;
+    border-color: #6a6a68;
+}
+
+.card {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-body .text-center {
+    margin-top: auto;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #81817f;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.05);
+}
+
+.form-label-custom {
+    color: #81817f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control-custom {
+    background-color: #f0f0f0;
+    color: #81817f;
+    border: 1px solid #d1d1d1;
+}
+
+.form-control-custom:focus {
+    background-color: #e6e6e6;
+    border-color: #81817f;
+    box-shadow: none;
+}
+
+textarea.form-control-custom {
+    min-height: 120px;
+}
+
+.social-logo img {
+    width: 30px;
+}
+
+.footer {
+    background-color: #81817f;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #6a6a68;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        background-color: #81817f;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 60px;
+    }
+}
+
+@media (max-width: 400px) {
+    .text-center .fs-4 {
+        font-size: 18px;
+    }
+}
+
+
+.modal-content {
+    max-width: 450px; 
+    margin: 1rem auto;
+    background-color: white; 
+    color: #81817f;
+    border: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.modal-header {
+    border-bottom: none; 
+}
+
+.modal-body {
+    text-align: center; 
+    padding: 2rem;
+}
+
+.alumno-info img {
+    width: 100%; 
+    max-width: 250px; 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.alumno-details {
+    margin-top: 1rem;
+}
+
+.alumno-details p {
+    margin-bottom: 0.5rem; 
+}
+
+.alumno-details strong {
+    font-weight: bold; 
+}
+
+.btn-close {
+    color: white;
+    opacity: 1; 
+    font-size: 1.5rem;
+    margin-top: -2px;
+}
+
+.btn-close:hover {
+    color: #6a6a68; 
+    opacity: 1; 
+}
